@@ -61,21 +61,22 @@ Dependências de navegação foram adicionadas para a próxima evolução do pro
 A arquitetura recomendada para evolução do projeto é Feature-Based com Custom Hooks, em um estilo próximo ao MVVM.
 
 ```text
-src/
-├── components/
-│   └── ui/
-├── constants/
-├── features/
-│   ├── auth/
-│   ├── chat/
-│   ├── courses/
-│   ├── dashboard/
-│   └── profile/
-├── hooks/
-├── navigation/
-├── services/
-├── styles/
-└── utils/
+WhatIF/
+└── src/
+    ├── components/
+    │   └── ui/
+    ├── constants/
+    ├── features/
+    │   ├── auth/
+    │   ├── chat/
+    │   ├── courses/
+    │   ├── dashboard/
+    │   └── profile/
+    ├── hooks/
+    ├── navigation/
+    ├── services/
+    ├── styles/
+    └── utils/
 ```
 
 ### View
@@ -104,7 +105,7 @@ Camada responsável por comunicação com API, mocks, persistência local, schem
 
 ## Como rodar
 
-Entre na pasta do projeto:
+Entre na pasta do projeto mobile:
 
 ```bash
 cd WhatIF
